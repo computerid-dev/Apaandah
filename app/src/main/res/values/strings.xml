@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pencatat Keuangan</string>
+
+    <string name="ringkasan">Ringkasan</string>
+    <string name="total_penjualan">Total Penjualan</string>
+    <string name="total_pembelian">Total Pembelian</string>
+    <string name="saldo_bersih">Saldo Bersih</string>
+    <string name="menu_riwayat">Riwayat Transaksi</string>
+    <string name="menu_kategori">Kelola Kategori</string>
+    <string name="menu_pengaturan">Pengaturan</string>
+    <string name="tambah_transaksi">Tambah Transaksi</string>
+
+    <string name="nama_barang">Nama Barang</string>
+    <string name="harga_barang">Harga Barang</string>
+    <string name="kategori">Kategori</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="pilih_tanggal">Pilih tanggal</string>
+    <string name="jenis_aksi">Jenis Transaksi</string>
+    <string name="menjual">Menjual</string>
+    <string name="membeli">Membeli</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+
+    <string name="riwayat_transaksi">Riwayat Transaksi</string>
+    <string name="cari_barang">Cari nama barang…</string>
+    <string name="filter_semua">Semua</string>
+    <string name="filter_dijual">Dijual saja</string>
+    <string name="filter_dibeli">Dibeli saja</string>
+    <string name="belum_ada_transaksi">Belum ada transaksi. Yuk tambah sekarang!</string>
+
+    <string name="kelola_kategori">Kelola Kategori</string>
+    <string name="tambah_kategori">Tambah Kategori</string>
+    <string name="nama_kategori">Nama Kategori</string>
+    <string name="belum_ada_kategori">Belum ada kategori. Tambahkan dulu ya.</string>
+    <string name="hapus_kategori_judul">Hapus Kategori?</string>
+    <string name="hapus_kategori_pesan">Kategori ini akan dihapus dari daftar. Transaksi lama tidak akan terhapus.</string>
+
+    <string name="pengaturan">Pengaturan</string>
+    <string name="mode_gelap">Mode Gelap</string>
+    <string name="backup_data">Backup Data</string>
+    <string name="restore_data">Restore Data</string>
+    <string name="backup_desc">Simpan semua data transaksi dan kategori ke file JSON di penyimpanan HP kamu.</string>
+    <string name="restore_desc">Pulihkan data dari file backup JSON yang pernah kamu simpan.</string>
+    <string name="versi_aplikasi">Versi 1.0 · 100 persen Offline</string>
+
+    <string name="hapus_transaksi_judul">Hapus Transaksi?</string>
+    <string name="hapus_transaksi_pesan">Transaksi ini akan dihapus secara permanen.</string>
+    <string name="hapus">Hapus</string>
+    <string name="edit">Edit</string>
+
+    <string name="pesan_nama_kosong">Nama barang wajib diisi</string>
+    <string name="pesan_harga_kosong">Harga wajib diisi</string>
+    <string name="pesan_kategori_kosong">Pilih kategori dulu ya</string>
+    <string name="pesan_tanggal_kosong">Pilih tanggal dulu ya</string>
+    <string name="pesan_tersimpan">Transaksi berhasil disimpan</string>
+    <string name="pesan_kategori_ada">Kategori sudah ada</string>
+    <string name="pesan_backup_sukses">Backup berhasil disimpan</string>
+    <string name="pesan_backup_gagal">Backup gagal, coba lagi</string>
+    <string name="pesan_restore_sukses">Data berhasil dipulihkan</string>
+    <string name="pesan_restore_gagal">File backup tidak valid</string>
+</resources>
