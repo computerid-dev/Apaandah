@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".PencatatApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:roundIcon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PencatatKeuangan"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.TambahTransaksiActivity"
+            android:exported="false"
+            android:label="@string/tambah_transaksi"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ui.RiwayatActivity"
+            android:exported="false"
+            android:label="@string/riwayat_transaksi" />
+
+        <activity
+            android:name=".ui.KategoriActivity"
+            android:exported="false"
+            android:label="@string/kelola_kategori" />
+
+        <activity
+            android:name=".ui.PengaturanActivity"
+            android:exported="false"
+            android:label="@string/pengaturan" />
+
+    </application>
+
+</manifest>
